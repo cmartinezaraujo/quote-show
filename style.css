@@ -1,0 +1,47 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Poppins', cursive;
+  font-size: 5vmin;
+  text-align: center;
+  font-weight: 700;
+  width: 60%;
+  max-width: 60%;
+  
+  /* Add contrast to text */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+blockquote, .author{
+  color: white;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background:rgba(255,255,255, 0.7);
+  width: 60%;
+  max-width: 60%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
